@@ -51,3 +51,9 @@ switch(varSwitch)
 	case 14: console.log("Fifth switch"); break;
 	default : alert("Default");
 }
+
+// Les tableaux
+var jourSemaine = ['lundi', 'mardi', 'mercredi'];
+console.log(jourSemaine[1]);
+console.log(jourSemaine);
+console.log(jourSemaine.length);
