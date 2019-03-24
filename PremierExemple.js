@@ -18,3 +18,19 @@ var boolean1 = 13;
 var boolean2 = 15;
 console.log(boolean1 == boolean2); // Retourner false non 0
 console.log(boolean1 != boolean2); // Retourner true non 1
+
+// tester les conditions
+var score = 10;
+
+if(score > 10)
+{
+	console.log("Condition vrai");
+}
+else if(score==10)
+{
+	console.log("Deuxieme condition");
+}
+else
+{
+	console.log("Condition Faux");
+}
