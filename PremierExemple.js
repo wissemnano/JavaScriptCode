@@ -13,4 +13,8 @@ console.log(majusclke);
 var minuscule = maChaine.toLocaleLowerCase();
 console.log(minuscule);
 
-//
+//tester les boolean
+var boolean1 = 13;
+var boolean2 = 15;
+console.log(boolean1 == boolean2); // Retourner false non 0
+console.log(boolean1 != boolean2); // Retourner true non 1
