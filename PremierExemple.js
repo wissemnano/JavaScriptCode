@@ -34,3 +34,19 @@ else
 {
 	console.log("Condition Faux");
 }
+
+// Condition Switch()
+  /*var varSwitch = prompt("Tapez nombre");
+console.log(varSwitch);
+varSwitch= parseInt(varSwitch);
+console.log(varSwitch);
+*/
+var varSwitch=14;
+switch(varSwitch)
+{
+	case 0 : console.log("First switch"); break;
+	case 2: console.log("Second switch"); break;
+	case 5: console.log("Third switch"); break;
+	case 10: console.log("Fourd switch"); break;
+	case 14: console.log("Fifth switch"); break;
+}
