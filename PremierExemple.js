@@ -49,4 +49,5 @@ switch(varSwitch)
 	case 5: console.log("Third switch"); break;
 	case 10: console.log("Fourd switch"); break;
 	case 14: console.log("Fifth switch"); break;
+	default : alert("Default");
 }
