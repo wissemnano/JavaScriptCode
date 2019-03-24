@@ -57,3 +57,16 @@ var jourSemaine = ['lundi', 'mardi', 'mercredi'];
 console.log(jourSemaine[1]);
 console.log(jourSemaine);
 console.log(jourSemaine.length);
+
+// Les Operations sur les tableaux
+jourSemaine.push("Jeudi");
+console.log(jourSemaine);
+jourSemaine.sort();
+console.log(jourSemaine);
+// Parcoure Tableaux
+for (var index in jourSemaine) {
+	console.log(index + " est :" + jourSemaine[index]);
+}
+//
+var person = {firstName:"John", lastName:"Doe", age:46};
+console.log(person["lastName"]);
