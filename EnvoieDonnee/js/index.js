@@ -4,8 +4,8 @@ function sendTextElement() {
 
 function recieveTextElement() {
 //Syntaxe pour LIRE les données de localStorage:
-	var lastname = localStorage.getItem("key");
-
+	var textRecue = localStorage.getItem("textTransmis");
+	document.getElementById("affichage").innerHTML = localStorage.getItem("textRecue");
 }
 
 /* Syntaxe pour SUPPRIMER les données de localStorage:
