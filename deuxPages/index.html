@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hello World</title>
+    </head>
+    <script type="text/javascript" >
+        function Envoie() {
+            var txtAffiche = "vide";
+            txtAffiche=document.getElementById('First').value+" , ";
+            txtAffiche+=document.getElementById('Last').value;
+            alert(txtAffiche);
+
+        }
+    </script>
+    <body>
+        <div>
+            <input type="text" name="text" id="First" placeholder="First Name"/>
+            <input type="text" name="text" id="Last" placeholder="Last Name"/>
+            <input type="button" name="" id="btnTest" value="Click Here" onclick="Envoie();" />
+            <br>
+            <a href="SecondPage.html">Second Page</a>
+        </div>
+    </body>
+</html>
