@@ -5,7 +5,7 @@ function sendTextElement() {
 function recieveTextElement() {
 //Syntaxe pour LIRE les données de localStorage:
 	var textRecue = localStorage.getItem("textTransmis");
-	document.getElementById("affichage").innerHTML = localStorage.getItem("textRecue");
+	document.getElementById("affichage").innerHTML = textRecue;
 }
 
 /* Syntaxe pour SUPPRIMER les données de localStorage:
